@@ -5,7 +5,6 @@
 echo "Nazwa: $0"
 
 for i in {1..4}; do
-    N=$i
-    VAL=${!N}
-    echo "Parametr $N: $([ $VAL ] && echo $VAL || echo '---')"
+    VAL=${!i}
+    echo "Parametr $i: $([ $VAL ] && echo $VAL || echo '---')"
 done

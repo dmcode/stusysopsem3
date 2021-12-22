@@ -13,4 +13,3 @@ elif [ ! -f $1 ]; then
 fi
 
 chmod g+w $1
-ls -la $1
